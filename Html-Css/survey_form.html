@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NETFLIX</title>
     <link rel="stylesheet" href="survey_form.css" />
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+</head>
   <body>
     <div id="container">
-      <h1 id="title">NET<span>FLIX</span></h1>
+      <h1 id="title">Net<span>Flix</span></h1>
       <h3 id="description">
         Thank you for signing up at Netflix. Tell us more about your self
       </h3>
@@ -29,8 +35,8 @@
         </div>
 
         <div class="box">
-          <label for="number" id="number-label">Age</label><br />
-          <input
+          <label for="number" id="number-label">Age</label>
+          <br><input
             type="number"
             id="number"
             name="age"
@@ -43,8 +49,8 @@
         </div>
 
         <div class="box">
-          <label for="email" id="email-label">Email</label><br />
-          <input
+          <label for="email" id="email-label">Email</label>
+          <br><input pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
             type="email"
             name="email"
             id="email"
@@ -56,10 +62,10 @@
 
         <div class="box">
           <label for="dropdown" id="dropdown-label">Content type</label>
-          <br />
+          <br>
           <select name="content" id="dropdown">
             <option value="Movie">Movie</option>
-            <option value="Series">Series</option></select
+            <option value="Series" selected>Series</option></select
           ><br />
         </div>
 
@@ -98,7 +104,7 @@
 
 <label for="text-area" id="feedback-label">Feed back</label><br>
 
-<textarea id="text-area" name="comment" cols="30" rows="5" placeholder="any comment"></textarea>
+<textarea id="text-area" name="comment" cols="50" rows="5" placeholder="any comment"></textarea>
 
         </div>
 
