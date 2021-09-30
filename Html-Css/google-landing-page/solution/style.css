@@ -20,8 +20,7 @@ header{
 .header-left{
     opacity: 0.8;
     float: left;
-    vertical-align: middle;
-
+    padding-top: 5px;
 }
 .header-right{
     float: right;
