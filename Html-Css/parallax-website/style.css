@@ -40,10 +40,9 @@
   background-size: cover;
 }
 .imgtext {
-  
   background-color: #111;
   color: #fff;
-  padding:20px;
+  padding: 20px;
   text-align: center;
   font-size: 27px;
   letter-spacing: 8px;
@@ -66,7 +65,7 @@
   background-color: #f4f4f4;
   color: #666;
 }
-.black {    background-color: #282e34;
-
+.black {
+  background-color: #282e34;
   color: #ddd;
 }
