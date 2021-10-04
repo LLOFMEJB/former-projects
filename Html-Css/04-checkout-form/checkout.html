@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Checkout</h1>
+    <div id="main-container">
+      <div id="left-container">
+        <form action="result.html" method="get">
+          <div id="contact-container" class="info">
+            <h1 class="box-name">Contact information</h1>
+            <div class="info-box">
+              <label for="mail">Email</label><br />
+              <input
+                class="border"
+                required
+                type="email"
+                name="email-adress"
+                id="mail"
+                placeholder="Enter your email..."
+              />
+            </div>
+            <div class="info-box">
+              <label for="phone">Phone</label><br />
+              <input
+                class="border"
+                required
+                type="tel"
+                name="telno"
+                id="phone"
+                placeholder="Enter your phone number..."
+              />
+            </div>
+          </div>
+
+          <div id="adress-container" class="info">
+            <h1 class="box-name">Shipping address</h1>
+            <div id="name-box" class="info-box">
+              <label for="name">Full name</label><br />
+              <input
+                class="border"
+                required
+                type="text"
+                id="name"
+                name="fullname"
+                placeholder="Enter your Full name"
+              />
+            </div>
+            <div id="adress-box" class="info-box">
+              <label for="address">Address</label><br />
+              <input
+                class="border"
+                required
+                type="text"
+                id="address"
+                name="ship-address"
+                placeholder="Enter your address..."
+              />
+            </div>
+            <div id="city-box" class="info-box">
+              <label for="city">City</label><br />
+              <input
+                class="border"
+                type="text"
+                required
+                id="city"
+                name="city-name"
+                placeholder="Enter your city..."
+              />
+            </div>
+            <div id="country-box" class="info-box">
+              <label for="country">Country</label><br />
+              <select name="country" id="country" class="border">
+                <option value="turkey">Turkey</option>
+                <option value="england">England</option>
+                <option value="italy">Italy</option>
+              </select>
+            </div>
+            <div id="postal-box" class="info-box">
+              <label for="postal">Postal code</label><br />
+              <input
+                class="border"
+                type="text"
+                required
+                name="postal-code"
+                id="postal"
+                placeholder="Enter your postal code..."
+              />
+            </div>
+            <div id="reminder-box" class="info-box">
+              <input type="checkbox" name="remind" id="reminder" />
+              <label for="remind">See this information next time</label>
+            </div>
+          </div>
+          <button type="submit" id="submit-btn" class="info-box">
+            Continue
+          </button>
+        </form>
+      </div>
+      <div id="right-container">
+        <div id="product-box">
+          <div class="product">
+            <img class="image" src="./images/photo1.png" alt="product" />
+            <div class="product-info">
+              <h2>Vintage Bag</h2>
+              <p><strong>$54.99</strong><span class="lined">$94,99</span></p>
+              <div class="quantity border">
+                <button class="minus">-</button>
+                <p>1</p>
+                <button class="plus">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <img class="image" src="./images/photo2.png" alt="product" />
+            <div class="product-info">
+              <h2>Levi Shoes</h2>
+              <p><strong>$74.99</strong><span class="lined">$124,99</span></p>
+              <div class="quantity border">
+                <button class="minus">-</button>
+                <p>1</p>
+                <button class="plus">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="buy-detail">
+            <p>Shipping</p>
+            <p>$19</p>
+          </div>
+          <div class="buy-detail">
+            <p>Total</p>
+            <p>$148.98</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
