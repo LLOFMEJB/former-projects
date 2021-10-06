@@ -9,6 +9,10 @@
     text-align: center;
     margin: 15px 0;
 }
+label{
+  font-size: 12px;
+  
+}
 h1 {
   font-family: Mon, Arial, Helvetica, sans-serif;
   text-align: center;
@@ -19,12 +23,13 @@ h1 {
   align-items: left;
 }
 #main-container {
-  position: relative;
+  position:relative;
   display: grid;
   grid-template-columns: 465px 320px;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "left right";
-  width: 70%;
+  width: 80%;
+  align-self: center;
   left: 50%;
   transform: translateX(-50%);
   margin: 35px 0;
@@ -53,6 +58,8 @@ h1 {
   font-size: 14px;
   border-radius: 5px;
   width: 100%;
+  background-size: ;
+
 }
 .quantity {
   border-radius: 5px;
@@ -148,4 +155,39 @@ h1 {
   font-size: 12px;
     color: #4E5150;
     margin: 5px 0;
+}
+#mail{
+  background:url(./images/mail-box.png) no-repeat 5px 5px;
+  padding-left:30px;
+  background-size: 5%;
+}
+#phone{
+  background: url(./images/icons8-phone-49.png) no-repeat 5px 5px;
+  padding-left:30px;
+  background-size: 5%;
+}
+#name{
+  background: url(./images/id-card.png) no-repeat 5px 5px;
+  padding-left:30px;
+  background-size: 5%;
+}
+#address{
+  background: url(./images/address.png) no-repeat  5px 5px;
+  padding-left:30px;
+  background-size: 5%;
+}
+#city{
+  background: url(./images/city.png) no-repeat 5px 5px;
+  padding-left:30px;
+  background-size: 5%;
+}
+#country{
+  background: url(./images/turkish.png) no-repeat 5px 5px;
+  padding-left:30px;
+  background-size: 5%;
+}
+#postal{
+  background: url(./images/mail-box.png) no-repeat scroll 7px 7px;
+  padding-left:30px;
+  background-size: 5%;
 }
