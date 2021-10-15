@@ -1,6 +1,65 @@
-*{
-    background-color: steelblue;
+* {
+  margin: 0;
+  padding: 0;
 }
-p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+$primaryColor: grey;
+$color: navy;
+$widthButton: 100px;
+
+nav {
+  background-color: $primaryColor;
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
 }
+.left {
+  list-style: none;
+  float: left;
+  li {
+    display: inline-block;
+    margin: 20px;
+  }
+  li:first-child {
+    margin: 5px;
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color;
+    display: inline-block;
+    padding: 10px;
+  }
+}
+.right {
+  float: right;
+}
+
+.hg,
+.rw {
+  padding: 10px;
+  display: inline-block;
+  width: &$widthButton;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hg {
+  &:link {
+    background-color: blueviolet;
+  }
+  &:hover {
+    background-color: darken($color: $primaryColor, $amount: 10);
+  }
+}
+
+.rw {
+  &:link {
+    background-color: blueviolet;
+  }
+  &:hover {
+    background-color: darken($color: $primaryColor, $amount: 10);
+  }
+}
+
