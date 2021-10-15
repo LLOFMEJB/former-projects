@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  background-color: steelblue;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*# sourceMappingURL=style.css.map */
