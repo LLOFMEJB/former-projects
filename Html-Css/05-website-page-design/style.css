@@ -43,7 +43,7 @@ nav::after {
 .rw {
   padding: 10px;
   display: inline-block;
-  width: .hg, .rw 100px;
+  width: 100px;
   text-decoration: none;
   text-transform: uppercase;
 }
