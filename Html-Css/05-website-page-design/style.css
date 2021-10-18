@@ -46,6 +46,7 @@ nav::after {
   width: 100px;
   text-decoration: none;
   text-transform: uppercase;
+  color: navy;
 }
 
 .hg:link {
