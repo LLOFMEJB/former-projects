@@ -110,4 +110,30 @@ div {
 #a1,#b2,#c3{
   @extend .box;
 }
- 
+
+@mixin stil($bina){
+  @if ($bina == "hg") {
+    background-color: firebrick;
+  }
+  @else if ($bina == "sl") {
+    background-color:green
+  }
+  @else if ($bina == "rw") {
+    background-color:dodgerblue ;
+  }
+  @else {
+    background-color: black;
+  }
+}
+
+.kutu{
+  float: left;
+  padding: 10px 15px;
+  @include stil("hg")
+}
+
+$boyutlar: 1,2,3,4,5;
+
+@each $boyut in $boyutlar {
+  
+}
