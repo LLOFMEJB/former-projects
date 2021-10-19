@@ -104,4 +104,10 @@ div {
   border-radius: 50%;
   text-align: center;
 }
+
+.kutu {
+  float: left;
+  padding: 10px 15px;
+  background-color: firebrick;
+}
 /*# sourceMappingURL=style.css.map */
