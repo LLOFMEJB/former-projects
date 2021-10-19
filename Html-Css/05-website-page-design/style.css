@@ -70,4 +70,38 @@ nav::after {
   border: 1px solid black;
   background-color: white;
 }
+
+div {
+  float: left;
+}
+
+#first {
+  width: 100px;
+  height: 120px;
+  background-color: red;
+  margin: 15px;
+}
+
+#second {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin: 15px;
+}
+
+#third {
+  width: 100px;
+  height: 200px;
+  background-color: grey;
+  margin: 15px;
+}
+
+.box, #a1, #b2, #c3 {
+  width: 30px;
+  height: 30px;
+  background-color: hotpink;
+  margin: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
