@@ -5,6 +5,7 @@
 $primaryColor: grey;
 $color: navy;
 $widthButton: 100px;
+$nameColor:("light": white,"dark":black);
 
 nav {
   background-color: $primaryColor;
@@ -64,3 +65,8 @@ nav {
   }
 }
 
+.nm{
+  padding: 5px;
+  border: 1px solid black;
+  background-color: map-get($nameColor,"light" );
+}
