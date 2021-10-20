@@ -132,8 +132,12 @@ div {
   @include stil("hg")
 }
 
-$boyutlar: 1,2,3,4,5;
+$boyutlar: 1,2,3,4;
 
 @each $boyut in $boyutlar {
-  
+  .kutu#{$boyut}{
+    width: 50px;
+    background-color: forestgreen;
+    height: 50+$boyut*10 +px;
+  }
 }

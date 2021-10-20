@@ -110,4 +110,28 @@ div {
   padding: 10px 15px;
   background-color: firebrick;
 }
+
+.kutu1 {
+  width: 50px;
+  background-color: forestgreen;
+  height: 60px;
+}
+
+.kutu2 {
+  width: 50px;
+  background-color: forestgreen;
+  height: 70px;
+}
+
+.kutu3 {
+  width: 50px;
+  background-color: forestgreen;
+  height: 80px;
+}
+
+.kutu4 {
+  width: 50px;
+  background-color: forestgreen;
+  height: 90px;
+}
 /*# sourceMappingURL=style.css.map */
