@@ -141,3 +141,14 @@ $boyutlar: 1,2,3,4;
     height: 50+$boyut*10 +px;
   }
 }
+
+$balonlar: (küçük:5, orta:10, büyük:15);
+@each $ebat, $fiyat in $balonlar {
+  .balon-#{$ebat}{
+    background-color: lightseagreen;
+    border-radius: 50%;
+height: $fiyat*10 +px;
+width: $fiyat*10 +px;
+text-align:center;
+  }
+}
